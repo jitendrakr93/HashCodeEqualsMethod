@@ -1,0 +1,7 @@
+                     Contract between hashcode and equals method
+..........................................................................................
+>you must override hashCode() in every class that overrides equals() method
+
+>Failure to do so will result in a voilation of the general contract for Object.hashCode(), 
+ which will prevent your class from functioning properly in conjunction with all hash-based 
+ collections, including HashMap, HashSet and HashTable
